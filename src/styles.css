@@ -50,3 +50,27 @@ body {
 .pokemon h2 {
   text-align: center;
 }
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.action-button {
+  padding: 6px;
+  border-radius: 10px;
+  width: 60px;
+  border-style: none;
+}
+
+.delete-button {
+  background-color: rgb(241, 74, 74);
+  color: white;
+  font-weight: bold;
+}
+
+.like-button {
+  background-color: rgb(67, 67, 253);
+  color: white;
+  font-weight: bold;
+}
